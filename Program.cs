@@ -6,10 +6,8 @@ namespace Heranca
     {
         static void Main(string[] args)
         {
-            var conta = new ContaCorrente(20);
 
-            Console.WriteLine(ConverteConta<ContaInvestimento, ContaCorrente>(new ContaInvestimento(20)));
-            // Console.WriteLine((new ContaCorrente())new Conta());
+            ConverteConta<ContaInvestimento, ContaCorrente>(new ContaInvestimento(20));
             
         }
 
